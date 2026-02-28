@@ -14,6 +14,6 @@ resource "aws_instance" "app_server" {
   ami           = "ami-830c94e3"
   instance_type = "t2.large"
   tags = {
-    Name = "ExampleAppServerInstance"
+    Name = "AppServerInstance"
   }
 }
